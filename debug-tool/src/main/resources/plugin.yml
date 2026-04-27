@@ -1,0 +1,6 @@
+name: DebugTool
+version: ${version}
+main: xyz.rafi67000.titanspigot.debug.Main
+commands:
+  debug:
+    description: Displays debug information about class

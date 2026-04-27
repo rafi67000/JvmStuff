@@ -1,0 +1,9 @@
+### IntelliJ IDEA ###
+.idea/
+
+### Kotlin ###
+.kotlin
+
+### Gradle ###
+.gradle
+build/
