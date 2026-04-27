@@ -40,10 +40,7 @@ To use the agent when compiling your code with gradle:
 ```kotlin
 tasks.withType<JavaCompile>().configureEach {
         options.isFork = true
-        options.forkOptions.jvmArgs = listOf(
-            "-javaagent:PATH TO AGENT",
-            "--add-opens=jdk.compiler/com.sun.tools.javac.jvm=ALL-UNNAMED"
-        )
+        options.forkOptions.jvmArgs = listOf("-javaagent:PATH TO AGENT")
 }
 ```
 
