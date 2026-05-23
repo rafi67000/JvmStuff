@@ -1,7 +1,6 @@
 package xyz.rafi67000.agent;
 
 import java.lang.instrument.Instrumentation;
-import java.lang.classfile.*;
 
 public class JavacAgent {
 
